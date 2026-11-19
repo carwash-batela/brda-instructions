@@ -1,32 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cjenik lokacija="BRDA" datum="2026-09-10" jedinica="sekundi" pdv="25">
-  <kontakt email="carwash.batela@gmail.com"/>
-  <tarifa id="normalna" naziv="Normalna tarifa" od="08:00" do="21:30">
-    <grupa id="programi" naziv="Programi">
-      <stavka id="pranje" naziv="Pranje" sekundi="85"/>
-      <stavka id="ispiranje" naziv="Ispiranje" sekundi="85"/>
-      <stavka id="vosak-ceramic" naziv="Vosak / Ceramic" sekundi="85"/>
-      <stavka id="felge" naziv="Felge" sekundi="60"/>
-    </grupa>
-    <grupa id="usisavanje" naziv="Usisavanje">
-      <stavka id="usisavac" naziv="Usisavač" sekundi="190"/>
-    </grupa>
-    <grupa id="ostalo" naziv="Ostalo">
-      <stavka id="sjajilo" naziv="Sjajilo" sekundi="80"/>
-    </grupa>
-  </tarifa>
-  <tarifa id="povlastena" naziv="Povlaštena tarifa" od="21:30" do="08:00">
-    <grupa id="programi" naziv="Programi">
-      <stavka id="pranje" naziv="Pranje" sekundi="105"/>
-      <stavka id="ispiranje" naziv="Ispiranje" sekundi="110"/>
-      <stavka id="vosak-ceramic" naziv="Vosak / Ceramic" sekundi="105"/>
-      <stavka id="felge" naziv="Felge" sekundi="80"/>
-    </grupa>
-    <grupa id="usisavanje" naziv="Usisavanje">
-      <stavka id="usisavac" naziv="Usisavač" sekundi="200"/>
-    </grupa>
-    <grupa id="ostalo" naziv="Ostalo">
-      <stavka id="sjajilo" naziv="Sjajilo" sekundi="80"/>
-    </grupa>
-  </tarifa>
+<cjenik valuta="EUR" pdv="25" datum="2026-09-10" pdvUkljucen="da">
+  <trgovac naziv="BATELA za usluge d.o.o." oib="35501848273" mbs="060221110" email="carwash.batela@gmail.com" telefon="098 933 3722"/>
+  <poslovniProstor naziv="Car Wash BRDA" adresa="BRDA"/>
+  <usluge>
+    <usluga id="pranje-normalna" grupa="Programi">
+      <naziv>Pranje (Normalna tarifa 08:00–21:30): 1,00 € = 85 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>85</trajanjeSekundi>
+      <tarifa id="normalna" od="08:00" do="21:30"/>
+    </usluga>
+    <usluga id="ispiranje-normalna" grupa="Programi">
+      <naziv>Ispiranje (Normalna tarifa 08:00–21:30): 1,00 € = 85 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>85</trajanjeSekundi>
+      <tarifa id="normalna" od="08:00" do="21:30"/>
+    </usluga>
+    <usluga id="vosak-ceramic-normalna" grupa="Programi">
+      <naziv>Vosak / Ceramic (Normalna tarifa 08:00–21:30): 1,00 € = 85 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>85</trajanjeSekundi>
+      <tarifa id="normalna" od="08:00" do="21:30"/>
+    </usluga>
+    <usluga id="felge-normalna" grupa="Programi">
+      <naziv>Felge (Normalna tarifa 08:00–21:30): 1,00 € = 60 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>60</trajanjeSekundi>
+      <tarifa id="normalna" od="08:00" do="21:30"/>
+    </usluga>
+    <usluga id="usisavac-normalna" grupa="Usisavanje">
+      <naziv>Usisavač (Normalna tarifa 08:00–21:30): 1,00 € = 190 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>190</trajanjeSekundi>
+      <tarifa id="normalna" od="08:00" do="21:30"/>
+    </usluga>
+    <usluga id="sjajilo-normalna" grupa="Ostalo">
+      <naziv>Sjajilo (Normalna tarifa 08:00–21:30): 1,00 € = 80 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>80</trajanjeSekundi>
+      <tarifa id="normalna" od="08:00" do="21:30"/>
+    </usluga>
+    <usluga id="pranje-povlastena" grupa="Programi">
+      <naziv>Pranje (Povlaštena tarifa 21:30–08:00): 1,00 € = 105 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>105</trajanjeSekundi>
+      <tarifa id="povlastena" od="21:30" do="08:00"/>
+    </usluga>
+    <usluga id="ispiranje-povlastena" grupa="Programi">
+      <naziv>Ispiranje (Povlaštena tarifa 21:30–08:00): 1,00 € = 110 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>110</trajanjeSekundi>
+      <tarifa id="povlastena" od="21:30" do="08:00"/>
+    </usluga>
+    <usluga id="vosak-ceramic-povlastena" grupa="Programi">
+      <naziv>Vosak / Ceramic (Povlaštena tarifa 21:30–08:00): 1,00 € = 105 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>105</trajanjeSekundi>
+      <tarifa id="povlastena" od="21:30" do="08:00"/>
+    </usluga>
+    <usluga id="felge-povlastena" grupa="Programi">
+      <naziv>Felge (Povlaštena tarifa 21:30–08:00): 1,00 € = 80 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>80</trajanjeSekundi>
+      <tarifa id="povlastena" od="21:30" do="08:00"/>
+    </usluga>
+    <usluga id="usisavac-povlastena" grupa="Usisavanje">
+      <naziv>Usisavač (Povlaštena tarifa 21:30–08:00): 1,00 € = 200 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>200</trajanjeSekundi>
+      <tarifa id="povlastena" od="21:30" do="08:00"/>
+    </usluga>
+    <usluga id="sjajilo-povlastena" grupa="Ostalo">
+      <naziv>Sjajilo (Povlaštena tarifa 21:30–08:00): 1,00 € = 80 s</naziv>
+      <maloprodajnaCijena>1,00</maloprodajnaCijena>
+      <posebanOblikProdaje></posebanOblikProdaje>
+      <baznaCijena>1,00</baznaCijena>
+      <trajanjeSekundi>80</trajanjeSekundi>
+      <tarifa id="povlastena" od="21:30" do="08:00"/>
+    </usluga>
+  </usluge>
 </cjenik>

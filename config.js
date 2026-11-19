@@ -1,5 +1,6 @@
 /* Postavke lokacije BRDA (4 boxa, 3 usisavača, mjenjač novca, sjajilo za gume; bez aktivne pjene). */
 window.LOC={
+ address:'',
  id:'brda',
  name:'BRDA',
  ntfy:'carwash-brda-kvar-3bf0713ad20a7e45',
